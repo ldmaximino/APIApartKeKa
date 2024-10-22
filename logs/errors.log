@@ -550,3 +550,81 @@
     at VisitGuestService.create (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/services/visit-guest_service.js:25:13)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/controllers/visit-guest_controller.js:42:24) |
+| [31merror[39m | 22-10-2024 16:52:25 | error Error: ReferenceError: guestDao is not defined
+    at UserService.getByUserName (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/services/user_service.js:10:13)
+    at getByUserName (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/controllers/user_controller.js:10:38)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\backend\node_modules\express\lib\router\index.js:175:3) |
+| [31merror[39m | 22-10-2024 17:14:15 | error Error: Error: MongoServerError: $where not allowed in this atlas tier
+    at UserService.login (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/services/user_service.js:11:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async login (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/controllers/user_controller.js:9:20) |
+| [31merror[39m | 22-10-2024 17:17:52 | error Error: Error: ReferenceError: db is not defined
+    at UserService.login (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/services/user_service.js:11:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async login (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/controllers/user_controller.js:9:20) |
+| [31merror[39m | 22-10-2024 17:18:29 | error Error: Error: TypeError: UserDao.findOne is not a function
+    at UserService.login (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/services/user_service.js:11:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async login (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/controllers/user_controller.js:9:20) |
+| [31merror[39m | 22-10-2024 17:20:27 | error Error: ReferenceError: Cannot access 'user' before initialization
+    at UserService.login (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/services/user_service.js:13:13)
+    at login (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/controllers/user_controller.js:9:38)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Usuario\Documents\.PROGRAMACION\back-end\code-alarm\backend\node_modules\express\lib\router\index.js:175:3) |
+| [31merror[39m | 22-10-2024 19:42:54 | error ReferenceError: obj is not defined
+    at createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/controllers/visit-guest_controller.js:43:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |
+| [31merror[39m | 22-10-2024 19:45:18 | error Error: Error: ValidationError: codeAlarm: Cast to Number failed for value "Promise { <pending> }" (type Promise) at path "codeAlarm"
+    at VisitGuestService.create (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/services/visit-guest_service.js:25:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/controllers/visit-guest_controller.js:46:24) |
+| [31merror[39m | 22-10-2024 19:46:49 | error Error: Error: ValidationError: codeAlarm: Cast to Number failed for value "$2b$10$47IlzBOy/EEVKd2mjHwYwOw28V22aHGqEQFg7jOyKWeuMG5WpBTlK" (type string) at path "codeAlarm"
+    at VisitGuestService.create (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/services/visit-guest_service.js:25:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/controllers/visit-guest_controller.js:46:24) |
+| [31merror[39m | 22-10-2024 20:15:17 | error Error: Error: ValidationError: codeAlarm: Cast to Number failed for value "Promise {
+  '$2b$08$CDbdblw0WetRmY2ZWUVyjuy0FHMELCAp9mx6fBmyjz/PHAa.Wh5G6'
+}" (type Promise) at path "codeAlarm"
+    at VisitGuestService.create (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/services/visit-guest_service.js:25:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/controllers/visit-guest_controller.js:43:24) |
+| [31merror[39m | 22-10-2024 20:16:38 | error Error: Error: ValidationError: codeAlarm: Cast to string failed for value "Promise {
+  '$2b$08$7H9fWcb.96wEVWj8yWuWk.PqUnchc38Yb2ByHrnZVXCi.TxCS4Fv.'
+}" (type Promise) at path "codeAlarm"
+    at VisitGuestService.create (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/services/visit-guest_service.js:25:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/controllers/visit-guest_controller.js:43:24) |
+| [31merror[39m | 22-10-2024 20:17:48 | error Error: Error: ValidationError: codeAlarm: Cast to string failed for value "Promise {
+  '$2b$08$74TP9z61GA4a4EYZEW.NdOm1uA1ZmMGOSMLD7ATY8C9T97u5LMRna'
+}" (type Promise) at path "codeAlarm"
+    at VisitGuestService.create (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/services/visit-guest_service.js:25:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/controllers/visit-guest_controller.js:43:24) |
+| [31merror[39m | 22-10-2024 20:20:06 | error Error: Error: ValidationError: codeAlarm: Cast to string failed for value "Promise {
+  '$2b$08$lGdHO3Ejc7Mw9OW8MVU2cOezVCiw3ocJJzpIhdCoOJ7m.k0tawaC6'
+}" (type Promise) at path "codeAlarm"
+    at VisitGuestService.create (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/services/visit-guest_service.js:26:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/controllers/visit-guest_controller.js:43:24) |
+| [31merror[39m | 22-10-2024 20:22:57 | error Error: Error: ValidationError: codeAlarm: Cast to string failed for value "Promise {
+  '$2b$08$qU4K2AtauDjpqJQ5CRHAR.OgxHJM62jEg7kCbs3mxYKRgJmCq01I.'
+}" (type Promise) at path "codeAlarm"
+    at VisitGuestService.create (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/services/visit-guest_service.js:26:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/controllers/visit-guest_controller.js:44:24) |
+| [31merror[39m | 22-10-2024 20:41:13 | error ReferenceError: encryptPassword is not defined
+    at createVisit (file:///C:/Users/Usuario/Documents/.PROGRAMACION/back-end/code-alarm/backend/src/controllers/visit-guest_controller.js:44:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |

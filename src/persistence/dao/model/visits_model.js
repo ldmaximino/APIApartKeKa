@@ -8,7 +8,7 @@ const VisitSchema = new Schema({
         required: true, 
     },
     codeAlarm: {
-        type: Number,
+        type: String,
         required: true,
     },
     dateIN: {
