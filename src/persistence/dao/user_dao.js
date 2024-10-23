@@ -12,4 +12,12 @@ export default class UserDao {
       throw new Error(error);
     }
   };
+
+  getAllUsers = async() => {
+    try {
+      return await UserModel.find({});
+    } catch (error) {
+      throw new Error(error);
+    }
+  }
 }

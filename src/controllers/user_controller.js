@@ -16,4 +16,14 @@ export default class UserController {
       next(error);
     }
   }
+
+  async getAllUsers(req, res, next) {
+    try {
+      const users = await userService.getAllUsers();
+      if(!users) return null;
+      return res.json(users);
+    } catch (error) {
+      next(error);
+    }
+  }
 }

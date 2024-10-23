@@ -14,4 +14,12 @@ export default class UserService {
       throw new Error(error);
     }
   }
+
+  async getAllUsers() {
+    try {
+      return userDao.getAllUsers();
+    } catch (error) {
+      throw new Error(error);
+    }
+  }
 }
