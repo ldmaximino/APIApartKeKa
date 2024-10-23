@@ -15,7 +15,7 @@ export default class MainRouter {
     init() {
         this.router.use("/api/guest", guestsRouter);
         this.router.use("/api/visit", visitGuestRouter);
-        this.router.use("/api", userRouter);
+        this.router.use("/api/user", userRouter);
     }
 
     getRouter() {

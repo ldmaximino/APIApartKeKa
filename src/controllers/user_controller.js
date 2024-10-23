@@ -16,4 +16,18 @@ export default class UserController {
       next(error);
     }
   }
+
+  async getlog(req, res, next) {
+    try {
+      const { userName, pass } = req.query;
+      const user = await userService.login({ userName, password: pass });
+      if (!user)
+        return res
+          .status(404)
+          .json({ code: "404", msg: "Credentials are not valid" });
+      return res.json(user);
+    } catch (error) {
+      next(error);
+    }
+  }
 }
