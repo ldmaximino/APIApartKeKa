@@ -8,6 +8,5 @@ const userController = new UserController();
 const router = Router();
 
 router.post("/login", userController.login);
-router.get("/getlog", userController.getlog);
 
 export default router;
